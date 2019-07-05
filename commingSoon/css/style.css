@@ -1,0 +1,29 @@
+
+body{
+    background: url("../img/Repeat%20Grid%201.png") no-repeat center center fixed;
+
+      /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+/*  background-repeat: no-repeat;*/
+  background-size: cover;
+      
+
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    
+    border: 2px solid pink;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 280px;
+    
+ 
+}
+
