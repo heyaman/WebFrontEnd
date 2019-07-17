@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(to right, #E5AFBD, #BB64D4);
+}
+
+.boxWrap{
+    
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    height: 610px;
+    width: 460px;
+}
+
+.boxWrap>header>h2{
+    
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.boxWrap>header>h2>i{
+
+   
+}
+h2{
+    font-family: 'Barriecito', cursive;
+     border-radius: 15px;
+
+      background: linear-gradient(to right, white,#B2ACAB); 
+}
+.pencil{
+     margin-right: 150px;
+        color: #916CD8;
+    
+}
+
+.spencil{
+    margin-left: 150px;
+}
+
+
+content>ul>li{
+    height: 70px;
+    text-decoration: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+ border: 2px solid black;
+
+.ul{
+    border: 2px solid red;
+}
+content>ul>li>input{
+/*    font-size: 150px;*/
+}
+
+.boxWrap>content>ul>li>label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.add{
+    padding: 7px 25px;
+    border-radius: 8px;
+    margin-left: 25px;
+    background-color: #63028F;
+    color: aliceblue;
+    border: 0;
+    
+}
+
+
+
+.remove{
+      padding: 7px 25px;
+    border-radius: 8px;
+    border: 0;
+       margin-left: 125px;
+    background-color: #55545B;
+    color: aliceblue;
+    
+}
+
+input[type="checkbox"]:checked + label{
+   text-decoration: line-through;
+    opacity: 0.5;
+    
+    
+    
+}
