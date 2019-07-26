@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    background: url(../img/workplace-2303851_1920.jpg) no-repeat center center fixed; 
+  
+  background-size: cover;
+    background-position: center;
+
+}
+
+.brandtext{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.active{
+    background-color: white;
+}
+
+
+nav>ul{
+     list-style-type: none;
+/*    border: 2px solid red;*/
+   
+    
+}
+.navbar-brand{
+    
+}
+.brandlogo{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    color: black;
+}
+.logo{
+    font-family: 'Bitter', serif;
+    color: aliceblue;
+}
+.logo:hover{
+    color: #ffa502;
+}
+
+nav>ul>li{
+    float: left;
+/*    border: 2px solid red;*/
+    padding: 15px 10px;
+   margin-top: 0;
+    padding-top: 0;
+    
+    
+    
+    align-items: flex-end;
+}
+.righty{
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    color: aliceblue;
+}
+.righty:hover{
+    background-color: 
+}
+.navbar{
+    background-color: transparent;
+    border: 0px;
+}
+.nav>li>a{
+    color: black;
+/*    border: 2px solid black;*/
+}
+
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+  margin-top: 125px;
+}
+.square{
+    color: #55efc4;
+    padding-bottom: 3px;
+}
+.insqure{
+    font-size: 90px;
+    color:white;
+}
+.center>.row>.col-md-12>h3 ,h4{
+    color: #222f3e;
+/*      border: 2px solid black;*/
+}
+.success{
+    background-color: #55efc4;
+    padding: 0px 35px;
+    border-radius: 8px;
+    border: 0;
+    
+}
+.dropdown-menu>.fb>a{
+    padding: 5px 20px;
+    background-color:#4267B2;
+    border-radius: 5px;
+    color: white;
+/*    border: 2px solid red;*/
+}
+.dropdown-menu>.tweet>a{
+       padding: 5px 20px;
+      border-radius: 5px;
+    background-color:#1A91DA;
+     color: white;
+    
+}
+@media (max-width:768px){
+    h3{
+        background-color: #c7ecee;
+    }
+    
+}

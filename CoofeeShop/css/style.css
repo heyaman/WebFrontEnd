@@ -1,0 +1,39 @@
+ul{
+
+    border: 2px solid black;
+    background-color: #222222;
+/*    width: 100%;*/
+   list-style-type: none;
+    color: #f6b93b;
+/*    padding: 25px 18px;*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li>a{
+    color: #f6b93b;
+    display: block;
+    text-align: center;
+    padding: 25px 18px;
+    text-decoration: none;
+}
+li>a:active{
+    background-color: orange;
+        
+    
+}
+li>a:hover{
+    
+    background-color: darkred;
+    border-radius: 8px;
+}
+.righty{
+    float: right;
+}

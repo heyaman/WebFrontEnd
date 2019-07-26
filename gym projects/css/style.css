@@ -1,0 +1,14 @@
+
+body{
+    background: url("../img/adult-bodybuilding-brawny-1851820.jpg") no-repeat center center fixed;
+
+      /* Full height */
+/*  height: 100%; */
+
+  /* Center and scale the image nicely */
+/*  background-position: center;*/
+/*  background-repeat: no-repeat;*/
+  background-size: cover;
+      
+
+}
